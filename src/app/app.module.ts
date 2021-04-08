@@ -55,6 +55,14 @@ import { DistrictsComponent } from './screens/ahyd/teen-centers/districts/distri
 import { IssuesAndConcernsComponent } from './screens/ahyd/issues-and-concerns/issues-and-concerns.component';
 import { PopulationProfileByMuncipalityComponent } from './screens/others/population-profile-by-muncipality/population-profile-by-muncipality.component';
 import { AgeDistributionAndAgeDependencyRatioByMunicipalityComponent } from './screens/others/age-distribution-and-age-dependency-ratio-by-municipality/age-distribution-and-age-dependency-ratio-by-municipality.component';
+import { SliderComponent } from './approvals/slider/slider.component';
+import { ArticlesComponent } from './approvals/articles/articles.component';
+import { AwardsComponent } from './approvals/awards/awards.component';
+import { OfficialsComponent } from './approvals/officials/officials.component';
+import { ProgramAreasComponent } from './approvals/program-areas/program-areas.component';
+import { PmocApprovalsComponent } from './approvals/pmoc-approvals/pmoc-approvals.component';
+import { MpcFdcApprovalsComponent } from './approvals/mpc-fdc-approvals/mpc-fdc-approvals.component';
+import { AgeDistributionApprovalsComponent } from './approvals/age-distribution-approvals/age-distribution-approvals.component';
 
 @NgModule({
   declarations: [
@@ -110,6 +118,14 @@ import { AgeDistributionAndAgeDependencyRatioByMunicipalityComponent } from './s
     IssuesAndConcernsComponent,
     PopulationProfileByMuncipalityComponent,
     AgeDistributionAndAgeDependencyRatioByMunicipalityComponent,
+    SliderComponent,
+    ArticlesComponent,
+    AwardsComponent,
+    OfficialsComponent,
+    ProgramAreasComponent,
+    PmocApprovalsComponent,
+    MpcFdcApprovalsComponent,
+    AgeDistributionApprovalsComponent,
   ],
   imports: [
     BrowserModule,
