@@ -63,6 +63,27 @@ import { ProgramAreasComponent } from './approvals/program-areas/program-areas.c
 import { PmocApprovalsComponent } from './approvals/pmoc-approvals/pmoc-approvals.component';
 import { MpcFdcApprovalsComponent } from './approvals/mpc-fdc-approvals/mpc-fdc-approvals.component';
 import { AgeDistributionApprovalsComponent } from './approvals/age-distribution-approvals/age-distribution-approvals.component';
+import { RecordsComponent } from './side-screens/records/records.component';
+import { CpdbRecordsComponent } from './side-screens/records/cpdb-records/cpdb-records.component';
+import { DeathRecordsComponent } from './side-screens/records/death-records/death-records.component';
+import { InMigrationRecordsComponent } from './side-screens/records/in-migration-records/in-migration-records.component';
+import { OutMigrationRecordsComponent } from './side-screens/records/out-migration-records/out-migration-records.component';
+import { MarriagesRecordsComponent } from './side-screens/records/marriages-records/marriages-records.component';
+import { AddArticleComponent } from './side-screens/add-article/add-article.component';
+import { AddComponent } from './side-screens/admins/add/add.component';
+import { ShowAdminComponent } from './side-screens/admins/show-admin/show-admin.component';
+import { LogsComponent } from './side-screens/logs/logs.component';
+import { AddCpdbComponent } from './side-screens/add/add-cpdb/add-cpdb.component';
+import { AddBirthsComponent } from './side-screens/add/add-births/add-births.component';
+import { AddInMigrationsComponent } from './side-screens/add/add-in-migrations/add-in-migrations.component';
+import { AddOutMigrationsComponent } from './side-screens/add/add-out-migrations/add-out-migrations.component';
+import { AddMarriagesComponent } from './side-screens/add/add-marriages/add-marriages.component';
+import { HelpCenterComponent } from './dropdown-screens/help-center/help-center.component';
+import { AccountComponent } from './dropdown-screens/account/account.component';
+import { BackUpAndRestoreComponent } from './dropdown-screens/back-up-and-restore/back-up-and-restore.component';
+import { SearchComponent } from './independents/search/search.component';
+import { MapScreenComponent } from './independents/map-screen/map-screen.component';
+import { FileUploadScreenComponent } from './independents/file-upload-screen/file-upload-screen.component';
 
 @NgModule({
   declarations: [
@@ -126,6 +147,27 @@ import { AgeDistributionApprovalsComponent } from './approvals/age-distribution-
     PmocApprovalsComponent,
     MpcFdcApprovalsComponent,
     AgeDistributionApprovalsComponent,
+    RecordsComponent,
+    CpdbRecordsComponent,
+    DeathRecordsComponent,
+    InMigrationRecordsComponent,
+    OutMigrationRecordsComponent,
+    MarriagesRecordsComponent,
+    AddArticleComponent,
+    AddComponent,
+    ShowAdminComponent,
+    LogsComponent,
+    AddCpdbComponent,
+    AddBirthsComponent,
+    AddInMigrationsComponent,
+    AddOutMigrationsComponent,
+    AddMarriagesComponent,
+    HelpCenterComponent,
+    AccountComponent,
+    BackUpAndRestoreComponent,
+    SearchComponent,
+    MapScreenComponent,
+    FileUploadScreenComponent,
   ],
   imports: [
     BrowserModule,
