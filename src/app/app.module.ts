@@ -30,6 +30,13 @@ import { MandateComponent } from './screens/about/mandate/mandate.component';
 import { VmgComponent } from './screens/about/vmg/vmg.component';
 import { CoreValuesComponent } from './screens/about/core-values/core-values.component';
 import { OrgStructureComponent } from './screens/about/org-structure/org-structure.component';
+import { PersonnelDirectoryComponent } from './screens/about/personnel-directory/personnel-directory.component';
+import { ProgramsComponent } from './screens/programs/programs.component';
+import { ServicesOfferedComponent } from './screens/services-offered/services-offered.component';
+import { BirthsComponent } from './screens/demographics/births/births.component';
+import { MonthChartsComponent } from './components/month-charts/month-charts.component';
+import { IncidenceChartsComponent } from './components/incidence-charts/incidence-charts.component';
+import { TechnicalNotesComponent } from './components/technical-notes/technical-notes.component';
 
 @NgModule({
   declarations: [
@@ -60,6 +67,13 @@ import { OrgStructureComponent } from './screens/about/org-structure/org-structu
     VmgComponent,
     CoreValuesComponent,
     OrgStructureComponent,
+    PersonnelDirectoryComponent,
+    ProgramsComponent,
+    ServicesOfferedComponent,
+    BirthsComponent,
+    MonthChartsComponent,
+    IncidenceChartsComponent,
+    TechnicalNotesComponent,
   ],
   imports: [
     BrowserModule,
