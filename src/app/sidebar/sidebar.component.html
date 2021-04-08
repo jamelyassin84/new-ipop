@@ -1,1 +1,40 @@
-<p>sidebar works!</p>
+<!-- #Left Sidebar ==================== -->
+<div class="sidebar">
+    <div class="sidebar-inner">
+        <!-- ### $Sidebar Header ### -->
+        <div class="sidebar-logo">
+            <div class="peers ai-c fxw-nw">
+                <div class="peer peer-greed">
+                    <a class="sidebar-link td-n">
+                        <div class="peers ai-c fxw-nw">
+                            <div class="peer">
+                                <div class="logo">
+                                    <img class="mt-3" width="50" height="50" src="../../assets/images/logo/ipo-logo.ico" alt="">
+                                </div>
+                            </div>
+                            <div class="peer peer-greed">
+                                <h5 class="lh-1 mB-0 logo-text fw-700"> Population Office</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="peer">
+                    <div class="mobile-toggle sidebar-toggle">
+                        <a href="" class="td-n">
+                            <i class="ti-arrow-circle-left"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="sidebar-menu scrollable pos-r " style="padding-top: 30px;">
+            <li *ngFor="let nav of navs" class="nav-item mT-10 ">
+                <a class="sidebar-link" [routerLink]="['/' + nav.route]">
+                    <span class="icon-holder">
+                        <i [style.color]="nav.color" [class]="'bi ' + nav.icon"></i>
+                    </span>
+                    <span class="title">{{nav.name}}</span>
+                </a>
+            </li>
+        </ul>
