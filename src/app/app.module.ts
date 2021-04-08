@@ -37,6 +37,24 @@ import { BirthsComponent } from './screens/demographics/births/births.component'
 import { MonthChartsComponent } from './components/month-charts/month-charts.component';
 import { IncidenceChartsComponent } from './components/incidence-charts/incidence-charts.component';
 import { TechnicalNotesComponent } from './components/technical-notes/technical-notes.component';
+import { TotalComponent } from './screens/demographics/births/total/total.component';
+import { SummaryComponent } from './screens/demographics/births/summary/summary.component';
+import { DeathsComponent } from './screens/demographics/deaths/deaths.component';
+import { MigrationsComponent } from './screens/demographics/migrations/migrations.component';
+import { ChartsComponent } from './screens/demographics/migrations/charts/charts.component';
+import { PmocComponent } from './screens/rpfp/pmoc/pmoc.component';
+import { TotalsComponent } from './screens/rpfp/pmoc/totals/totals.component';
+import { TeamComponent } from './screens/rpfp/pmoc/team/team.component';
+import { MpcFdcComponent } from './screens/rpfp/mpc-fdc/mpc-fdc.component';
+import { ListsComponent } from './screens/rpfp/mpc-fdc/lists/lists.component';
+import { ShowComponent } from './screens/rpfp/mpc-fdc/show/show.component';
+import { PersonnelsComponent } from './screens/rpfp/mpc-fdc/personnels/personnels.component';
+import { TeenCentersComponent } from './screens/ahyd/teen-centers/teen-centers.component';
+import { FocalPersonsComponent } from './screens/ahyd/teen-centers/focal-persons/focal-persons.component';
+import { DistrictsComponent } from './screens/ahyd/teen-centers/districts/districts.component';
+import { IssuesAndConcernsComponent } from './screens/ahyd/issues-and-concerns/issues-and-concerns.component';
+import { PopulationProfileByMuncipalityComponent } from './screens/others/population-profile-by-muncipality/population-profile-by-muncipality.component';
+import { AgeDistributionAndAgeDependencyRatioByMunicipalityComponent } from './screens/others/age-distribution-and-age-dependency-ratio-by-municipality/age-distribution-and-age-dependency-ratio-by-municipality.component';
 
 @NgModule({
   declarations: [
@@ -74,6 +92,24 @@ import { TechnicalNotesComponent } from './components/technical-notes/technical-
     MonthChartsComponent,
     IncidenceChartsComponent,
     TechnicalNotesComponent,
+    TotalComponent,
+    SummaryComponent,
+    DeathsComponent,
+    MigrationsComponent,
+    ChartsComponent,
+    PmocComponent,
+    TotalsComponent,
+    TeamComponent,
+    MpcFdcComponent,
+    ListsComponent,
+    ShowComponent,
+    PersonnelsComponent,
+    TeenCentersComponent,
+    FocalPersonsComponent,
+    DistrictsComponent,
+    IssuesAndConcernsComponent,
+    PopulationProfileByMuncipalityComponent,
+    AgeDistributionAndAgeDependencyRatioByMunicipalityComponent,
   ],
   imports: [
     BrowserModule,
